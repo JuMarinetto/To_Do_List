@@ -27,7 +27,7 @@ private TodoService todoService;
 	}
 	
 	@PostMapping
-	List<Todo> create(@RequestBody  Todo todo){
+	List<Todo> create(@RequestBody Todo todo){
 		return todoService.create(todo);
 	}
 	
